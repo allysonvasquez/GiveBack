@@ -1,0 +1,47 @@
+.Intro__buttons button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.Account__copyLinks {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.Account__buttons button {
+  margin-bottom: 1rem;
+}
+
+.Balances {
+  border-collapse: collapse;
+  font-size: var(--font-size-secondary);
+  line-height: 1.5rem;
+  color: var(--pal-text-secondary);
+  margin-bottom: 1rem;
+  min-width: 320px;
+}
+
+.Balances tr:not(:last-child) {
+  border-bottom: 1px solid var(--pal-border-primary);
+}
+
+.Balances td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  word-break: break-word;
+  vertical-align: middle;
+}
+
+.Balances td:last-child {
+  text-align: right;
+}
+
+.UnfundedAccount .Button {
+  margin-top: 1rem;
+}
+
+.GenericMessage {
+  margin-top: 1rem;
+}
