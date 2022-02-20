@@ -22,7 +22,7 @@ export const Intro = ({ setPublicKey }: IntroProps) => {
   // 🌎 Render Intro view UI
   return (
     <div>
-      <Heading2>Basic Wallet Example</Heading2>
+      <Heading2>GiveBack Transaction Example</Heading2>
 
       <InfoBlock>
         Click on "Connect with Albedo" to launch Albedo browser wallet.

@@ -32,7 +32,7 @@ const App = () => {
     <>
       {/* 🌎 Header component */}
       <Layout.Header
-        projectTitle="Wallet Example"
+        projectTitle="GiveBack Blockchain Prototype"
         // 🌎 Conditionally render `Sign out` link (if there is no action, the
         // link will not be rendered)
         onSignOut={conditionalSignOutAction()}
